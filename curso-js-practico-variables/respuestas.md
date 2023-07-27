@@ -9,7 +9,7 @@ Recuerda que estas respuestas (o al  menos la mayoría) NO SON ABSOLUTAS. Es com
 
 - ¿Qué es una variable y para qué sirve?
 
-Cajtas (espacios en memoria) donde podemos guardar información (dependiendo de los tipos y estructuras de datos que soporte nuestro lenguaje).
+Cajitas (espacios en memoria) donde podemos guardar información (dependiendo de los tipos y estructuras de datos que soporte nuestro lenguaje).
 
 - ¿Cuál es la diferencia entre declarar e inicializar una variable?
 
@@ -119,7 +119,7 @@ switch (tipoDeSuscripcion) {
 - ¿Qué es un ciclo infinito y por qué es un problema?
 - ¿Puedo mezclar ciclos y condicionales?
 
-### 2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
+### 2️⃣ Replica el comportamiento de los siguientes ciclos **** for **utilizando ciclos while:
 
 ```
 for (let i = 0; i < 5; i++) {
