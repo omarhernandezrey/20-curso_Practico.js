@@ -98,8 +98,19 @@ function saludo(name, lastName, userName) {
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 
 - ¿Qué es un condicional?
+
+    Es la forma en que ejecutamos un bloque de código u otro dependiendo de alguna condición o validación.
+
+
 - ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
+
+    if (else y else if), switch
+    El condicional if (con else y else if) nos permite hacer validaciones totalmente distintas con el condicional. En cambio en switch se comparan con la misma variable o condición que definimos en el switch.
+
+
 - ¿Puedo combinar funciones y condicionales?
+
+Si. Las funciones pueden encapsular cualquier bloque de código incluido condicionales. 
 
 ### 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
 
