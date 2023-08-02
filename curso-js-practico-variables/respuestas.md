@@ -215,12 +215,71 @@ while (respuesta != '4') {
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 
 - ¿Qué es un array?
+
+    Una lista de elementos
+
+    ```js
+    const array = [1, 'jajaja',true, false, {nombre: 'lala', edad: 3}];
+    ```
+
 - ¿Qué es un objeto?
+
+    Es una lista de elemento pero cada elemento tiene un nombre clave.
+    ```js
+    const obj = {
+        nombre: 'fulanito',
+        edad: 3,
+        comidasFavoritas: ['pollo frito', 'vegetales'],
+    };
+    ```
 - ¿Cuándo es mejor usar objetos o arrays?
+
+    Arrays cuando lo que aremos en un elemento es lo mismo que en todos los demás (La regla se puede cumplir). Mientras que un objeto cuando los nombres de cada elementos son importantes para nuestro algoritmos.
+
 - ¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+    Si los arrays pueden guardar objetos. Y los objetos pueden guardar arrays entre sus propiedades.
 
 ### 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 
+```js
+function imprimirPrimerElementoArray(arr) {
+    console.log(arr[0])
+}
+//undefined
+
+imprimirPrimerElementoArray(['Juanita','Rigoberto','Natilla'])
+//Juanita
+```
+
 ### 3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
 
+```js
+function imprimirElementoPorElemento(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+    }
+}
+```
+
 ### 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
+
+
+// Se define una función llamada 'imprimirElementoPorElementoObjeto' que recibe un objeto como parámetro.
+```js
+function imprimirElementoPorElementoObjeto(obj) {
+    // Se obtiene un arreglo 'arr' con los valores del objeto 'obj' usando Object.values(obj).
+    const arr = Object.values(obj);
+    // Se recorre el arreglo 'arr' con un bucle for.
+    for (let i = 0; i < arr.length; i++) {
+        // Se muestra en la consola cada elemento del arreglo 'arr'.
+        console.log(arr[i]);
+    }
+}
+
+// Se llama a la función 'imprimirElementoPorElementoObjeto' y se pasa el objeto 'obj' como argumento.
+imprimirElementoPorElementoObjeto(obj);
+// Resultado:
+// fulanito
+// 3
+// (2) ['pollo frito', 'vegetales']
+```
